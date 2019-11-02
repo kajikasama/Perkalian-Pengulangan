@@ -1,0 +1,17 @@
+#include <iostream>
+#include <conio>
+int main()
+{
+int i,bil1,bil2,hasil;
+cout<<"Perkalian Dengan Perulangan"<<endl;
+cout<<"Masukan Bilangan 1 : ";
+cin>>bil1;
+cout<<"Masukan Bilangan 2 : ";
+cin>>bil2;
+for(i=1; i <= bil2;i++)
+{
+	hasil = hasil + bil1;
+}
+cout<<"Hasil Dari Perkalian "<<bil1<<" Dengan "<<bil2<<" Adalah  "<<hasil;
+getch();
+}
